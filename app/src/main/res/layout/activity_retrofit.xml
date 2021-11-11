@@ -5,21 +5,13 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical">
-    <Button
-        android:id="@+id/btn_0"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Retrofit"/>
+
     <Button
         android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="获取数据"/>
-    <Button
-        android:id="@+id/btn_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="获取数组"/>
+
     <TextView
         android:id="@+id/tv_retrofit"
         android:layout_width="wrap_content"

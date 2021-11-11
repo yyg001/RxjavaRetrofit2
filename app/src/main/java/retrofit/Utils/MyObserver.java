@@ -7,6 +7,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.widget.Toast;
 
+import java.util.Date;
+
 import io.reactivex.disposables.Disposable;
 import retrofit.Utils.BaseObserver;
 
@@ -40,7 +42,7 @@ public abstract class MyObserver<T> extends BaseObserver<T> {
         } else {
             if (dialog == null && mShowDialog == true) {
                 dialog = new ProgressDialog(mContext);
-                dialog.setMessage("正在加载中");
+                dialog.setMessage("正在加载中，请稍等");
                 dialog.show();
             }
         }
@@ -53,6 +55,8 @@ public abstract class MyObserver<T> extends BaseObserver<T> {
         hidDialog();
         super.onError(e);
     }
+
+
 
     @Override
     public void onComplete() {
