@@ -6,6 +6,7 @@ import android.view.View;
 import android.widget.TextView;
 import com.trello.rxlifecycle2.components.RxActivity;
 import retrofit.Utils.MyObserver;
+import retrofit.bean.Data;
 import retrofit.bean.Info;
 
 

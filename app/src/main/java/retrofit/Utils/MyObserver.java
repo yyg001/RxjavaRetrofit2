@@ -6,11 +6,8 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.widget.Toast;
-
-import java.util.Date;
-
 import io.reactivex.disposables.Disposable;
-import retrofit.Utils.BaseObserver;
+
 
 /**
  * Observer加入加载框
